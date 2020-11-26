@@ -1,0 +1,36 @@
+.toDoForm {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  height: 400px;
+  background-color: rgb(204, 83, 83);
+}
+
+.toDoForm input {
+  width: 90%;
+  height: 70px;
+  size: 5rem;
+  display: inline;
+}
+
+.toDoForm h1 {
+  padding: 30px;
+}
+
+.toDoList {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+}
