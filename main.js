@@ -10,9 +10,10 @@ btn.addEventListener('click', (e)=>{
     
     const closeBtn = document.querySelector('.close')
     closeBtn.addEventListener('click', (e)=>{
-        console.log(closeBtn);
-        const parentNode = closeBtn.parentNode
-        console.log(parentNode.value)
+        console.log(e.target)
+        const target = e.target;
+        const parentNode = target.parentNode;
+        ul.removeChild(parentNode);
     
     })
 })
